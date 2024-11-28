@@ -1,6 +1,6 @@
 .steps {
   display: flex;
-  gap: 4rem;
+  gap: 2rem;
   font-size: 0.7rem;
   justify-content: center;
   align-items: center;
@@ -11,8 +11,10 @@
 }
 
 .step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  z-index: 1;
   padding: 0.5rem;
   width: 120px;
 }
